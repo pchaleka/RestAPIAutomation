@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Rest-API-Automation-Assignment">
+
+	<test name="Posts Service Api Test Case">
+
+		<classes>
+
+			<class name="com.qa.tests.PostsServiceTest" />
+
+		</classes>
+
+	</test>
+
+	<test name="Comments Service Api Test Case">
+
+		<classes>
+
+			<class name="com.qa.tests.CommentsServiceTest" />
+
+		</classes>
+
+	</test>
+
+
+	<test name="Users Service Api Test Case">
+
+		<classes>
+
+			<class name="com.qa.tests.UsersServiceTest" />
+
+		</classes>
+
+	</test>
+
+</suite>

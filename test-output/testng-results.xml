@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8632" started-at="2019-03-24T09:03:46Z" finished-at="2019-03-24T09:03:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8632" started-at="2019-03-24T09:03:46Z" finished-at="2019-03-24T09:03:55Z">
+      <class name="com.qa.tests.CommentsServiceTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.CommentsServiceTest@276438c9]" name="setUp" is-config="true" duration-ms="15" started-at="2019-03-24T09:03:46Z" finished-at="2019-03-24T09:03:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="comments_GETAPITest()[pri:1, instance:com.qa.tests.CommentsServiceTest@276438c9]" name="comments_GETAPITest" duration-ms="7701" started-at="2019-03-24T09:03:46Z" finished-at="2019-03-24T09:03:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comments_GETAPITest -->
+        <test-method status="PASS" signature="comments_POSTAPITest()[pri:2, instance:com.qa.tests.CommentsServiceTest@276438c9]" name="comments_POSTAPITest" duration-ms="892" started-at="2019-03-24T09:03:54Z" finished-at="2019-03-24T09:03:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comments_POSTAPITest -->
+      </class> <!-- com.qa.tests.CommentsServiceTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

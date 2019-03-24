@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Rest-API-Automation-Assignment]">
+  <test thread-count="5" name="Comments Service Api Test Case(failed)">
+    <classes>
+      <class name="com.qa.tests.CommentsServiceTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="comments_POSTAPITest"/>
+        </methods>
+      </class> <!-- com.qa.tests.CommentsServiceTest -->
+    </classes>
+  </test> <!-- Comments Service Api Test Case(failed) -->
+</suite> <!-- Failed suite [Rest-API-Automation-Assignment] -->
